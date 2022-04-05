@@ -1,5 +1,3 @@
-// const { hexStripZeros } = require("ethers/lib/utils");
-
 const main = async () => {
   const [owner, randomPerson, anotherRandomPerson] =
     await hre.ethers.getSigners();
